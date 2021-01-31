@@ -1,0 +1,5 @@
+com\ilab\api\assessment\tests\PetStore.class
+com\ilab\api\assessment\tests\stepdef\StepDefinitions.class
+com\ilab\api\assessment\tests\TestRunner.class
+com\ilab\api\assessment\tests\DogApi.class
+com\ilab\api\assessment\tests\BaseTest.class

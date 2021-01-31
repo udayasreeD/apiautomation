@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+	<listener class-name="com.ilab.api.assessment.listeners.ListenerClass"></listener>
+	</listeners>
+  <test name="DogApi Test">
+    <classes>
+      <class name="com.ilab.api.assessment.tests.BaseTest"/>
+      <class name="com.ilab.api.assessment.tests.DogApi"/>
+    </classes>
+  </test>
+    <test name="PetStore Test">
+        <classes>
+            <class name="com.ilab.api.assessment.tests.PetStore"/>
+        </classes>
+   <!-- <test name="com.ilab.api.assessment.tests.BaseTest"/>-->
+    </test>
+</suite>
